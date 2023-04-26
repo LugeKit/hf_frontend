@@ -33,3 +33,50 @@ h2 {
   background-repeat:   no-repeat;
   background-position: top left;
 }
+
+#elixir {
+    border: thin solid #007e7e;
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    text-align: center;
+    background: url(images/cocktail.gif) repeat-x;
+    line-height: 1;
+    float: right;
+}
+
+#elixir h2 {
+    color: black;
+}
+
+#elixir h3 {
+    color: #d12c47;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+#elixir a:link {
+    color: #007e7e;
+}
+
+#elixir a:visited {
+    color: #333333;
+}
+
+#elixir a:hover {
+    color: #0d5353;
+    background: #f88396;
+}
